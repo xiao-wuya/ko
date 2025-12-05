@@ -1,0 +1,5 @@
+{
+  "name": "ko",
+  "compatibility_date": "2025-12-05",
+  "main": "worker.js",
+}
