@@ -629,7 +629,7 @@ clash-meta
 }							headers: {
 								"Content-Type"; "text/plain;charset=utf-8",
 							}
-						};
+						});
 					}
 					default:
 						return new Response('Not found', { status: 404 });
