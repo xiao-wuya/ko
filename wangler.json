@@ -1,0 +1,5 @@
+{
+  "name": "ko",  // 替换为你的 Worker 名称
+  "compatibility_date": "2025-12-05",
+  "main": "worker.js",      // 根据你的实际入口文件路径修改
+}
