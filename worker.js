@@ -4,7 +4,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = '01c496ec-76f8-4335-b6f1-9072fb531015';
 
 let proxyIP = 'cdn.xn--b6gac.eu.org'; // workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
 
@@ -627,7 +627,7 @@ clash-meta
 ################################################################
 `;
 }							headers: {
-								"Content-Type": "text/plain;charset=utf-8",
+								"Content-Type": "text/plain;charset=utf-8";
 							}
 						});
 					}
